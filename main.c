@@ -15,8 +15,16 @@ struct sans
 	char movieName[50];
 	int emptySets[10];
 };
+
 int main()
 {
+<<<<<<< HEAD
 	struct sans aval={"first"};
 	printf ("%s", aval.sansName);
+=======
+	struct sans s={"Motreb"}; // when u are initializing a structure, actually u shoud set any strings between ""
+	printf ("%s", s.sansName);
+	printf("\n");
+	return 0;
+>>>>>>> 1a61a1a5c6677a22f7231f23265a5685e0573adc
 }
