@@ -15,8 +15,10 @@ struct sans
 	char movieName[50];
 	int emptySets[10];
 };
+
 int main()
 {
-	struct sans s={Motreb};
+	struct sans s={"Motreb"};
 	printf ("%s", s.sansName);
+	return 0;
 }
