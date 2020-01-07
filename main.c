@@ -17,6 +17,6 @@ struct sans
 };
 int main()
 {
-	struct sans s={Motreb};
-	printf ("%s", s.sansName);
+	struct sans aval={"first"};
+	printf ("%s", aval.sansName);
 }
