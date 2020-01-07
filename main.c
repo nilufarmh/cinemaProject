@@ -18,7 +18,8 @@ struct sans
 
 int main()
 {
-	struct sans s={"Motreb"};
+	struct sans s={"Motreb"}; // when u are initializing a structure, actually u shoud set any strings between ""
 	printf ("%s", s.sansName);
+	printf("\n");
 	return 0;
 }
